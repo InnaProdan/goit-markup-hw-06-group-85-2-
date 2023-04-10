@@ -1,0 +1,51 @@
+/*Секция: HERO*/
+/* .hero,
+.advantages-websdudio {
+  /* outline: 2px solid springgreen; */
+
+.hero {
+  max-width: 100%;
+  margin: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    
+    url(../images/hero-image-squooshed.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  &-titlel {
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: $title-text-color1;
+  }
+}
+.order-btn {
+  @extend %button;
+  width: 170px;
+  height: 56px;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  padding: 16px 32px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
