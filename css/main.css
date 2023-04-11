@@ -618,6 +618,10 @@ img {
   cursor: pointer;
 }
 
+.modal-form-close-btn:hover, .modal-form-close-btn:focus {
+  background-color: white;
+}
+
 .icon-close-black {
   position: absolute;
   top: 8px;
@@ -778,8 +782,9 @@ margin-left: 50px;
 .advantages-websdudio {
   /* outline: 2px solid springgreen; */
 .hero {
-  max-width: 100%;
-  margin: auto;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image-squooshed.jpg);
   background-color: black;
   background-repeat: no-repeat;

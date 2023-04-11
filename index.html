@@ -549,10 +549,11 @@
           </ul>
         </div>
         <form class="subscribe-form">
-          <div class="subscription">Subscribe
-          </div>
-          <div class="subscription-position">
+          <lable for id="subscription-fild-email"><div class="subscription">Subscribe
+          </div></lable>
+            <div class="subscription-position">
             <input
+              id="subscription-fild-email"
               class="subscription-fild"
               type="text"
               name="usermail"
@@ -579,8 +580,11 @@
             <use href="./images/symbol-defs.svg#icon-close-black"></use>
           </svg>
         </button>
+                  <!-- <label class="user-name-label label" for="user-name-modal-form"
+                              >Name</label -->
+                  <!-- > -->
         <div class="modal-form-wrapper">
-          <p class="input-title">Name</p>
+          <label class="input-title" for="user-name-modal-form">Name</label>
           <input
             class="modal-form-input"
             type="text"
@@ -589,16 +593,13 @@
             placeholder=" "
             required
           />
-          <!-- <label class="user-name-label label" for="user-name-modal-form"
-            >Name</label -->
-          <!-- > -->
           <svg class="icon-person-black modal-icon">
             <use href="./images/symbol-defs.svg#icon-person-black"></use>
           </svg>
         </div>
 
         <div class="modal-form-wrapper">
-          <p class="input-title">Phone</p>
+          <label class="input-title" for="user-phone-modal-form">Phone</label>
           <input
             class="modal-form-input"
             type="text"
@@ -607,16 +608,13 @@
             placeholder=" "
             required
           />
-          <!-- <label class="user-phone-label label" for="user-phone-modal-form"
-            >Phone</label
-          > -->
           <svg class="icon-phone-black modal-icon">
             <use href="./images/symbol-defs.svg#icon-phone-black"></use>
           </svg>
         </div>
 
         <div class="modal-form-wrapper">
-          <p class="input-title">Email</p>
+          <label class="input-title" for="user-email-modal-form">Email</label>
           <input
             class="modal-form-input"
             type="text"
@@ -624,11 +622,6 @@
             id="user-email-modal-form"
             placeholder=" "
             required
-          />
-
-          <!-- <label class="user-email-label label" for="user-email-modal-form"
-            >Email</label
-          > -->
           <svg class="icon-email-black modal-icon">
             <use href="./images/symbol-defs.svg#icon-email-black"></use>
           </svg>
